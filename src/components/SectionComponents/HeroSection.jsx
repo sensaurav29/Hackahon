@@ -11,7 +11,7 @@ export default function HeroSection() {
             initial={{ opacity: 0, y: 50, rotate: 320 }}
             animate={{ opacity: 1, y: 30, scale: 1.1, rotate: 360 }}
             transition={{ duration: 2 }}
-            src="src\assets\boatheadphone.png"
+            src="https://www.boat-lifestyle.com/cdn/shop/products/eb8e0fbd-c412-48b3-9c91-5b49ddf35800_17432771-6821-4dbf-86ac-9cb7c8dfe460_600x.png?v=1658829303z"
             alt="Model with Headphones"
             className="  h-[50%] md:h-[90%]  w-full  object-contain"
           />

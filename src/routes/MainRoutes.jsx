@@ -10,6 +10,7 @@ const MainRoutes = () => {
   return (
     <>
     <Routes>
+      <Route path="/" element={<Home />} />
       <Route path="/home" element={<Home />} />
       <Route path="/products" element = {<ProductsPage />} />
       <Route path="/products/:id" element = {<ProductDetail />} />

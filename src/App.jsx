@@ -3,10 +3,9 @@
 // import { motion } from 'motion/react'; // Not strictly needed here unless you add animations to App's root div
 
 // Import your section components
-import Navbar from './components/SectionComponents/Navbar';
-import HeroSection from './components/SectionComponents/HeroSection';
-import TransitionTextSection from './components/SectionComponents/TransitionTextSection';
-import ProductsSection from './components/SectionComponents/ProductsSection';
+
+
+import Navbar from './components/SectionComponents/NavBar';
 import MainRoutes from './routes/MainRoutes';
 
 // Remove MainRoutes if this is a single-page landing layout

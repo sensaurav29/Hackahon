@@ -1,6 +1,8 @@
 import { easeOut, motion } from "motion/react"; 
+import { useNavigate } from "react-router-dom";
 
 export default function HeroSection() {
+  const navigate = useNavigate();
   return (
     <section className="relative w-screen h-[100vh] bg-[#070310]  text-white overflow-hidden">
       {/* Background Image */}
@@ -48,7 +50,7 @@ export default function HeroSection() {
           }}
           className="text-white w-[8rem] border-b-1 border-r-1 border-red-700 px-6 py-2 rounded-full flex justify-between gap-x-4 items-center"
         >
-          <p className="font-nav font-bold">Shop Now</p>
+          <p onClick={() => navigate('/products')} className="font-nav font-bold ">Shop Now</p>
         </motion.button>
       </div>
 

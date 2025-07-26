@@ -34,7 +34,7 @@ const NavLogo = () => {
       }}
       className="logo bg-transparent w-15"
     >
-      <img src="src\assets\boatlogo.jpg" alt="" />
+      <img src="https://www.boat-lifestyle.com/cdn/shop/files/boAt_logo_black_24889e30-925c-4185-a028-9fef497a8e44.svg?v=1732879339" alt="" />
     </motion.div>
   );
 };

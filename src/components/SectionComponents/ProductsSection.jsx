@@ -102,7 +102,7 @@ const Card = () => {
         return (
           <div
             key={product.id}
-            className={`relative sm:w-[50%] sm:h-[50%] md:w-[90%] md:h-[90%] ml-20 mr-10 rounded-2xl  shadow-[0_0_20px_#FDF4FF] ${product.bgColor}  flex justify-center shrink-0 items-center`}
+            className={`relative sm:w-[50%] sm:h-[50%] md:w-[90%] md:h-[90%] ml-20 mr-10 rounded-2xl  shadow-[0_0_20px_#FDF4FF] ${product.bgColor}  flex flex-col md:flex-row justify-center shrink-0 items-center`}
           >
             <div
               style={{
